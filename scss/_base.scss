@@ -1,0 +1,191 @@
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+html {
+	height:100%;
+	overflow: hidden;
+ }
+
+ .home {
+ 	perspective: 1px;
+ 	transform-style: preserve-3d;
+ 	height:100%;
+ 	overflow-y: scroll;
+	overflow-x: hidden;
+ }
+ .slide:before {
+ 	content: " ";
+ 	position: absolute;
+ 	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	right:0;
+ 	background: 50% 50% / cover;
+ }
+ .slide {
+ 	position: relative;
+ 	padding: 25vh 10%;
+ 	min-height: 100vh;
+ 	width: 100vw;
+ 	transform-style: inherit;
+ 	background: 50% 50% / cover;
+ }
+
+ .slide p {
+ 	position: relative;
+ 	z-index:-1px;
+ 	transform: translateZ(0.2px) scale(0.8);
+ 	text-align: center;
+ 	font-size: 1.5em;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	color: rgba(255,255,255,1);
+
+ }
+  .slide img {
+ 	transform: translateZ(0.2px) scale(0.8);
+	text-align: center;
+	display: inline-block;
+ }
+
+ #title {
+ 	background-image: url(../img/back.png);
+ 	background-attachment: fixed;
+ }
+
+ #slide1:before {
+ 	 	background: rgba(66, 85, 96, 1);
+ 	 	transform: translateZ(-1px) scale(2);
+ 	 	z-index: -1;
+ }
+  #slide2 {
+ 	background: rgba(118, 138, 140, 1);
+ 	background-attachment: fixed;
+ }
+
+ #slide3:before {
+ 	 	background: rgba(66, 85, 96, 1);
+ 	 	transform: translateZ(-1px) scale(2);
+ 	 	z-index: -1;
+ }
+  #slide4 {
+ 	 	background: rgba(118, 138, 140, 1);
+ 
+
+ }
+   #slide5:before {
+ 	background-image: url(../img/back.png);
+	 	background-attachment: fixed;
+
+ }
+ figure {
+ 	width: 100%;
+ 	text-align: center;
+ 	display: inline-block;
+ }
+ .box {
+ 	background-color: rgba(255,255,255,.5);
+ 	width: 900px;
+ 	height:100px;
+ 	position: relative;
+ }
+ .box2 {
+ 	 background-color: rgba(255,255,255,.5);
+ 	width: 900px;
+ 	height:150px;
+	position:fixed;
+ }
+  h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	padding: 20px;
+	font-size: 3em;
+}
+
+h2{
+	transform: translateZ(0.2px) scale(0.8);
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+	margin-top: -100px;
+	font-size: 2.5em;
+}
+h3 {
+	transform: translateZ(0.2px) scale(0.8);
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 2.5em;
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+#button {
+	top: 10px;
+	right:10px;
+	position: absolute;
+ 	transform: translateZ(0px) scale(1);
+}
+#slide1 img {
+	width: 30%;
+	height: 100%;
+}
+
+.sad {
+	margin-top:40px;
+}
+
+.food {
+	margin-left: 50px;
+}
+
+.trump {
+	margin-top:-15px;
+}
+
+#slide2 img {
+	width: 30%;
+	height: 100%;
+}
+
+.ins {
+	margin-left: 50px;
+}
+
+.third {
+	text-align: center;
+	width: 100%;
+}
+
+.dog {
+	display: inline-block;
+	position: relative;
+}
+
+video {
+	display: inline-block;
+	position: relative;
+}
+
+
+
+
+
+ 
